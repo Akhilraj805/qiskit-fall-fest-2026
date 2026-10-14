@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+common_noise_output.txt
+results/common_noise_output.txt

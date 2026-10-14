@@ -1,0 +1,75 @@
+
+============================================================
+MODEL: 2016
+Ports: (0, 4)
+Noise source: FakeBurlingtonV2
+Shots per circuit: 10000
+XX: depth=7, 2-qubit gates=7
+YY: depth=7, 2-qubit gates=7
+ZZ: depth=6, 2-qubit gates=7
+
+IDEAL
+XX = +1.00000 +/- 0.00000
+YY = -1.00000 +/- 0.00000
+ZZ = +1.00000 +/- 0.00000
+Fidelity = 1.00000 +/- 0.00000
+F - 2 sigma = 1.00000
+Verification = PASS
+
+NOISY
+XX = +0.78820 +/- 0.00615
+YY = -0.78360 +/- 0.00621
+ZZ = +0.81580 +/- 0.00578
+Fidelity = 0.84690 +/- 0.00262
+F - 2 sigma = 0.84166
+Verification = PASS
+
+============================================================
+MODEL: contemporary
+Ports: (126, 129)
+Noise source: FakeFez
+Shots per circuit: 10000
+XX: depth=13, 2-qubit gates=7
+YY: depth=13, 2-qubit gates=7
+ZZ: depth=13, 2-qubit gates=7
+
+IDEAL
+XX = +1.00000 +/- 0.00000
+YY = -1.00000 +/- 0.00000
+ZZ = +1.00000 +/- 0.00000
+Fidelity = 1.00000 +/- 0.00000
+F - 2 sigma = 1.00000
+Verification = PASS
+
+NOISY
+XX = +0.94040 +/- 0.00340
+YY = -0.91920 +/- 0.00394
+ZZ = +0.93100 +/- 0.00365
+Fidelity = 0.94765 +/- 0.00159
+F - 2 sigma = 0.94447
+Verification = PASS
+
+============================================================
+MODEL: hyperbolic
+Ports: (0, 3)
+Noise source: synthetic
+Shots per circuit: 10000
+XX: depth=14, 2-qubit gates=7
+YY: depth=13, 2-qubit gates=7
+ZZ: depth=13, 2-qubit gates=7
+
+IDEAL
+XX = +1.00000 +/- 0.00000
+YY = -1.00000 +/- 0.00000
+ZZ = +1.00000 +/- 0.00000
+Fidelity = 1.00000 +/- 0.00000
+F - 2 sigma = 1.00000
+Verification = PASS
+
+NOISY
+XX = +0.94860 +/- 0.00316
+YY = -0.93260 +/- 0.00361
+ZZ = +0.94740 +/- 0.00320
+Fidelity = 0.95715 +/- 0.00144
+F - 2 sigma = 0.95427
+Verification = PASS

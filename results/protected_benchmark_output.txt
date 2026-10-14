@@ -1,0 +1,129 @@
+
+====================================================================
+MODEL: 2016
+Data ports: 0, 4; ancilla: 1
+Shots per circuit: 10000
+
+XX: depth=13, 2-qubit gates=12, active wires=4, circuit width=5
+Native operations: {'cx': 12, 'u2': 3, 'measure': 3}
+Active physical indices: [0, 1, 3, 4]
+  ideal: +1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: +0.74873 +/- 0.00696 | accepted=90.7% | discarded=934
+
+YY: depth=13, 2-qubit gates=12, active wires=4, circuit width=5
+Native operations: {'cx': 12, 'u2': 3, 'measure': 3}
+Active physical indices: [0, 1, 3, 4]
+  ideal: -1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: -0.76597 +/- 0.00676 | accepted=90.5% | discarded=950
+
+ZZ: depth=11, 2-qubit gates=12, active wires=4, circuit width=5
+Native operations: {'cx': 12, 'measure': 3, 'u2': 1}
+Active physical indices: [0, 1, 3, 4]
+  ideal: +1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: +0.80315 +/- 0.00625 | accepted=90.9% | discarded=907
+
+--------------------------------------------------------------------
+IDEAL PROTECTED RESULTS
+XX = +1.00000 +/- 0.00000
+YY = -1.00000 +/- 0.00000
+ZZ = +1.00000 +/- 0.00000
+Fidelity = 1.00000 +/- 0.00000
+F - 2*sigma = 1.00000
+Verification = PASS
+Mean ancilla acceptance: 100.0%
+
+--------------------------------------------------------------------
+NOISY PROTECTED RESULTS
+XX = +0.74873 +/- 0.00696
+YY = -0.76597 +/- 0.00676
+ZZ = +0.80315 +/- 0.00625
+Fidelity = 0.82946 +/- 0.00288
+F - 2*sigma = 0.82369
+Verification = PASS
+Mean ancilla acceptance: 90.7%
+
+====================================================================
+MODEL: contemporary
+Data ports: 126, 129; ancilla: 127
+Shots per circuit: 10000
+
+XX: depth=25, 2-qubit gates=12, active wires=4, circuit width=156
+Native operations: {'sx': 22, 'rz': 14, 'cz': 12, 'measure': 3}
+Active physical indices: [126, 127, 128, 129]
+  ideal: +1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: +0.93814 +/- 0.00352 | accepted=96.7% | discarded=333
+
+YY: depth=25, 2-qubit gates=12, active wires=4, circuit width=156
+Native operations: {'sx': 22, 'rz': 13, 'cz': 12, 'measure': 3}
+Active physical indices: [126, 127, 128, 129]
+  ideal: -1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: -0.94402 +/- 0.00335 | accepted=96.8% | discarded=318
+
+ZZ: depth=23, 2-qubit gates=12, active wires=4, circuit width=156
+Native operations: {'sx': 21, 'cz': 12, 'rz': 10, 'measure': 3}
+Active physical indices: [126, 127, 128, 129]
+  ideal: +1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: +0.94577 +/- 0.00330 | accepted=96.6% | discarded=337
+
+--------------------------------------------------------------------
+IDEAL PROTECTED RESULTS
+XX = +1.00000 +/- 0.00000
+YY = -1.00000 +/- 0.00000
+ZZ = +1.00000 +/- 0.00000
+Fidelity = 1.00000 +/- 0.00000
+F - 2*sigma = 1.00000
+Verification = PASS
+Mean ancilla acceptance: 100.0%
+
+--------------------------------------------------------------------
+NOISY PROTECTED RESULTS
+XX = +0.93814 +/- 0.00352
+YY = -0.94402 +/- 0.00335
+ZZ = +0.94577 +/- 0.00330
+Fidelity = 0.95698 +/- 0.00147
+F - 2*sigma = 0.95404
+Verification = PASS
+Mean ancilla acceptance: 96.7%
+
+====================================================================
+MODEL: hyperbolic
+Data ports: 0, 3; ancilla: 1
+Shots per circuit: 10000
+
+XX: depth=25, 2-qubit gates=12, active wires=4, circuit width=35
+Native operations: {'sx': 22, 'rz': 14, 'cz': 12, 'measure': 3}
+Active physical indices: [0, 1, 2, 3]
+  ideal: +1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: +0.94975 +/- 0.00320 | accepted=95.9% | discarded=408
+
+YY: depth=25, 2-qubit gates=12, active wires=4, circuit width=35
+Native operations: {'sx': 22, 'rz': 13, 'cz': 12, 'measure': 3}
+Active physical indices: [0, 1, 2, 3]
+  ideal: -1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: -0.95000 +/- 0.00319 | accepted=96.0% | discarded=400
+
+ZZ: depth=23, 2-qubit gates=12, active wires=4, circuit width=35
+Native operations: {'sx': 21, 'cz': 12, 'rz': 10, 'measure': 3}
+Active physical indices: [0, 1, 2, 3]
+  ideal: +1.00000 +/- 0.00000 | accepted=100.0% | discarded=0
+  noisy: +0.96033 +/- 0.00285 | accepted=95.8% | discarded=422
+
+--------------------------------------------------------------------
+IDEAL PROTECTED RESULTS
+XX = +1.00000 +/- 0.00000
+YY = -1.00000 +/- 0.00000
+ZZ = +1.00000 +/- 0.00000
+Fidelity = 1.00000 +/- 0.00000
+F - 2*sigma = 1.00000
+Verification = PASS
+Mean ancilla acceptance: 100.0%
+
+--------------------------------------------------------------------
+NOISY PROTECTED RESULTS
+XX = +0.94975 +/- 0.00320
+YY = -0.95000 +/- 0.00319
+ZZ = +0.96033 +/- 0.00285
+Fidelity = 0.96502 +/- 0.00133
+F - 2*sigma = 0.96235
+Verification = PASS
+Mean ancilla acceptance: 95.9%

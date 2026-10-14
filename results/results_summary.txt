@@ -1,0 +1,32 @@
+QISKIT FALL FEST — BASIC TRACK RESULTS SUMMARY
+==============================================
+
+OFFICIAL NATIVE-NOISE BASELINE (10,000 shots)
+
+Model         Baseline Fidelity   F - 2 sigma   Result
+2016          0.84690              0.84166       PASS
+Contemporary  0.94765              0.94447       PASS
+Hyperbolic    0.95715              0.95427       PASS
+
+PARITY-PROTECTED EXPERIMENT (10,000 shots)
+
+Model         Protected Fidelity  F - 2 sigma   Acceptance
+2016          0.82946              0.82369       90.7%
+Contemporary  0.95698              0.95404       96.7%
+Hyperbolic    0.96502              0.96235       95.9%
+
+COMMON-NOISE EXPERIMENT
+
+Model         Fidelity             F - 2 sigma   Depths (XX,YY,ZZ)
+2016          0.95715              0.95427       14,14,14
+Contemporary  0.95715              0.95427       14,14,14
+Hyperbolic    0.95715              0.95427       14,14,14
+
+NOTES
+-----
+- All official baseline and protected results pass F - 2*sigma_F > 0.5.
+- Parity protection adds five two-qubit gates per basis measurement.
+- Protection improved fidelity for Contemporary and Hyperbolic, but not 2016.
+- The common-noise results are identical because the selected circuits and
+  applied synthetic noise are equivalent for this particular experiment.
+- These are simulator results, not live quantum hardware measurements.
